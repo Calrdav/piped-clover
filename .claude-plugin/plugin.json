@@ -1,0 +1,10 @@
+{
+  "name": "piped-clover",
+  "version": "1.0.0",
+  "description": "Turn a pasted research transcript or article into a Marp slide deck, an editable PowerPoint with native charts, and an interactive mind map. Runs in Claude Code and Claude Cowork.",
+  "author": {
+    "name": "Callum Davidson"
+  },
+  "homepage": "https://github.com/REPLACE-ME/piped-clover",
+  "keywords": ["slides", "marp", "pptx", "mindmap", "research", "transcript", "youtube", "podcast"]
+}
