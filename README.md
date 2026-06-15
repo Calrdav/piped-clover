@@ -9,6 +9,8 @@ Paste a research transcript or article and get back three linked artifacts:
 Every output carries the original **source citation** and a personalised **"So What — For
 You"** takeaway.
 
+**▶ [See how it works + download](https://calrdav.github.io/piped-clover/)** — a visual walkthrough.
+
 It runs the same in **Claude Code** and **Claude Cowork** (the desktop app) — no extra
 services, no API keys. The model you're already talking to does the thinking; the skill does
 the fetching-of-shape and rendering.
@@ -44,7 +46,8 @@ HTML/PDF are skipped.
 ### Option B — Claude Code (terminal)
 
 ```bash
-# from wherever you cloned/unzipped this repo:
+git clone https://github.com/Calrdav/piped-clover.git
+cd piped-clover
 mkdir -p ~/.claude/skills
 ln -sfn "$(pwd)/skills/piped-clover" ~/.claude/skills/piped-clover
 ```
